@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "shouldercats",
+  "version": "${version}",
+  "name": "ShoulderCats",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "LGPL-3.0-or-later",
+  "icon": "assets/shouldercats/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "mm:early_risers": [
+      "be.florens.shouldercats.EarlyRiser"
+    ]
+  },
+  "mixins": [
+    "shouldercats.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.6+build.214",
+    "fabric": "*",
+    "minecraft": ">=1.16.2"
+  }
+}

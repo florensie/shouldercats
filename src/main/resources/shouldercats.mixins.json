@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "be.florens.shouldercats.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinCatEntity"
+  ],
+  "client": [
+    "client.MixinPlayerEntityRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
